@@ -23,7 +23,6 @@ def run_downloader(parent_dir, url, name):
 
 
 parent_dir = input('Enter the parent directory you would like your files to be saved to: ')
-# parent_dir = 'C:/Users/Ben/PycharmProjects/ytmp3dwnld'
 url = input('Enter youtube url (remember to add a space before you hit return): ')
 name = input('Enter desired file name: ')
 run_downloader(parent_dir, url, name)
